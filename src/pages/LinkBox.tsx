@@ -2,7 +2,7 @@ import { useState } from "react";
 import ComponentCard from "../components/common/ComponentCard";
 import Label from "../components/form/Label";
 import Input from "../components/form/input/InputField";
-import { FaGithub, FaTwitter, FaLinkedin, FaPlus, FaLink, FaTrash } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaPlus, FaTrash } from "react-icons/fa";
 
 export default function LinkBox() {
   const [tags, setTags] = useState([{ name: "", url: "" }]);
