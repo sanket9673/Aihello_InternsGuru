@@ -5,8 +5,8 @@ import { Dropdown } from "../ui/dropdown/Dropdown";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
 import { MoreDotIcon } from "../../icons";
 
-export default function MonthlyTarget() {
-  const series = [75.55];
+export default function MonthlyProfileTarget() {
+  const series = [15.45];
   const options: ApexOptions = {
     colors: ["#465FFF"],
     chart: {
@@ -69,10 +69,10 @@ export default function MonthlyTarget() {
         <div className="flex justify-between">
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-              Monthly Target
+              Monthly Active Days
             </h3>
             <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
-              Target you’ve set for each month
+              Improvement you’ve achieved for each month
             </p>
           </div>
           <div className="relative inline-block">
@@ -110,11 +110,11 @@ export default function MonthlyTarget() {
           </div>
 
           <span className="absolute left-1/2 top-full -translate-x-1/2 -translate-y-[95%] rounded-full bg-success-50 px-3 py-1 text-xs font-medium text-success-600 dark:bg-success-500/15 dark:text-success-500">
-            +10%
+            +2.50%
           </span>
         </div>
         <p className="mx-auto mt-10 w-full max-w-[380px] text-center text-sm text-gray-500 sm:text-base">
-          You earn $3287 today, it's higher than last month. Keep up your good
+          You made 1.02% improvement today, it's higher than yesterday.<br /> Keep up your good
           work!
         </p>
       </div>
@@ -122,10 +122,10 @@ export default function MonthlyTarget() {
       <div className="flex items-center justify-center gap-5 px-6 py-3.5 sm:gap-8 sm:py-5">
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Target
+            Yesterday
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            1.02%
             <svg
               width="16"
               height="16"
@@ -147,10 +147,10 @@ export default function MonthlyTarget() {
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Revenue
+            Today
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            2.50%
             <svg
               width="16"
               height="16"
@@ -172,10 +172,10 @@ export default function MonthlyTarget() {
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Today
+            Last Month
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            2.30%
             <svg
               width="16"
               height="16"

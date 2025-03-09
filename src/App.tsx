@@ -11,8 +11,6 @@ import Avatars from "./pages/UiElements/Avatars";
 import Buttons from "./pages/UiElements/Buttons";
 import LineChart from "./pages/Charts/LineChart";
 import BarChart from "./pages/Charts/BarChart";
-import Calendar from "./pages/Calendar";
-import BasicTables from "./pages/Tables/BasicTables";
 import FormElements from "./pages/Forms/FormElements";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
@@ -21,6 +19,8 @@ import ResumeComponent from "./pages/ResumeComponent";
 import LinkBox from "./pages/LinkBox";
 import CoverPage from "./pages/CoverPage";
 import Hackathon from "./pages/Hackathon";
+import Skills from "./pages/Skills";
+import Work from "./pages/Work";
 
 export default function App() {
   return (
@@ -34,19 +34,16 @@ export default function App() {
 
             {/* Others Page */}
             <Route path="/profile" element={<UserProfiles />} />
-            <Route path="/calendar" element={<Calendar />} />
             <Route path="/coverpage" element={<CoverPage />} />
             <Route path="/resume" element={<ResumeComponent />} />
             <Route path="/linkbox" element={<LinkBox />} />
-            <Route path="/work" element={<CoverPage />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/education" element={<CoverPage />} />
             <Route path="/hackathon" element={<Hackathon />} />
+            <Route path="/skills" element={<Skills />} />
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
-
-            {/* Tables */}
-            <Route path="/basic-tables" element={<BasicTables />} />
 
             {/* Ui Elements */}
             <Route path="/alerts" element={<Alerts />} />

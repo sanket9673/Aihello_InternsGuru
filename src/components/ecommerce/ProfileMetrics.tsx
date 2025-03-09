@@ -1,12 +1,12 @@
 import {
-  ArrowDownIcon,
+  // ArrowDownIcon,
   ArrowUpIcon,
   BoxIconLine,
   GroupIcon,
 } from "../../icons";
 import Badge from "../ui/badge/Badge";
 
-export default function EcommerceMetrics() {
+export default function ProfileMetrics() {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6">
       {/* <!-- Metric Item Start --> */}
@@ -18,10 +18,10 @@ export default function EcommerceMetrics() {
         <div className="flex items-end justify-between mt-5">
           <div>
             <span className="text-sm text-gray-500 dark:text-gray-400">
-              Customers
+              Profile View
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              3,782
+              782
             </h4>
           </div>
           <Badge color="success">
@@ -40,16 +40,16 @@ export default function EcommerceMetrics() {
         <div className="flex items-end justify-between mt-5">
           <div>
             <span className="text-sm text-gray-500 dark:text-gray-400">
-              Orders
+              Profile Connection
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              5,359
+              159
             </h4>
           </div>
 
-          <Badge color="error">
-            <ArrowDownIcon />
-            9.05%
+          <Badge color="success">
+            <ArrowUpIcon />
+            5.05%
           </Badge>
         </div>
       </div>
