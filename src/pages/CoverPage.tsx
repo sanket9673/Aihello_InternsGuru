@@ -9,7 +9,7 @@ const CoverPage: React.FC = () => {
       <ScrollVelocity
         texts={["Coming Soon", "Only With Aihello "]}
         velocity={velocity}
-        className="custom-scroll-text m-20"
+        className="custom-scroll-text m-20 dark:text-white"
       />
     </ComponentCard>
   );
