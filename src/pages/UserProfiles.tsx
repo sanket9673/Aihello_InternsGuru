@@ -3,9 +3,9 @@ import UserMetaCard from "../components/UserProfile/UserMetaCard";
 import UserInfoCard from "../components/UserProfile/UserInfoCard";
 import UserAddressCard from "../components/UserProfile/UserAddressCard";
 import PageMeta from "../components/common/PageMeta";
-import MonthlyProfileTarget from "../components/ecommerce/MonthlyProfileTarget";
-import ProfileMetrics from "../components/ecommerce/ProfileMetrics";
-import ProfileChart from "../components/ecommerce/ProfileChart";
+import MonthlyProfileTarget from "../components/userprofileUI/MonthlyProfileTarget";
+import ProfileMetrics from "../components/userprofileUI/ProfileMetrics";
+import ProfileChart from "../components/userprofileUI/ProfileChart";
 
 export default function UserProfiles() {
   return (
