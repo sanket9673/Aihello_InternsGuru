@@ -7,7 +7,7 @@ import MonthlyProfileTarget from "../components/userprofileUI/MonthlyProfileTarg
 import ProfileMetrics from "../components/userprofileUI/ProfileMetrics";
 import ProfileChart from "../components/userprofileUI/ProfileChart";
 
-export default function UserProfiles() {
+export default function UserProfile() {
   return (
     <>
       <PageMeta
@@ -15,17 +15,6 @@ export default function UserProfiles() {
         description="React.js Dashboard | Ganesh Aihello"
       />
       <PageBreadcrumb pageTitle="Profile" />
-
-      <div className="grid grid-cols-12 gap-4 md:gap-6 mt-5">
-        <div className="col-span-12 space-y-6 xl:col-span-7">
-          <ProfileMetrics />
-          <ProfileChart />
-        </div>
-
-        <div className="col-span-12 xl:col-span-5">
-          <MonthlyProfileTarget />
-        </div>
-      </div>
 
       <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] lg:p-6">
         <h3 className="mb-5 text-lg font-semibold text-gray-800 dark:text-white/90 lg:mb-7">
@@ -35,6 +24,17 @@ export default function UserProfiles() {
           <UserMetaCard />
           <UserInfoCard />
           <UserAddressCard />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-12 gap-4 md:gap-6 mt-5">
+        <div className="col-span-12 space-y-6 xl:col-span-7">
+          <ProfileMetrics />
+          <ProfileChart />
+        </div>
+
+        <div className="col-span-12 xl:col-span-5">
+          <MonthlyProfileTarget />
         </div>
       </div>
     </>
